@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mobile_shop/widgets/svg_image.dart';
 
-const TextStyle titleStyle =
-    TextStyle(color: Color(0xFF141010), fontWeight: FontWeight.w600);
+const TextStyle titleStyle = TextStyle(
+    color: Color(0xFF141010), fontWeight: FontWeight.w600, fontSize: 17.0);
 
 class CustomTabAppBar extends AppBar {
   CustomTabAppBar(

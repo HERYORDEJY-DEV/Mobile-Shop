@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:mobile_shop/screens/home-stack/home_tab_screen.dart';
+import 'package:mobile_shop/screens/discover-stack/discover_tab_screen.dart';
 import 'package:mobile_shop/styles/colors.dart';
 
 void main() {
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: true,
       title: 'Flutter Demo',
       theme: ThemeData(fontFamily: 'OpenSans'),
-      home: const HomeTabScreen(),
+      home: const DiscoverTabScreen(),
     );
   }
 }
